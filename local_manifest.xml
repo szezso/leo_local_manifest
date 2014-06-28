@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- CM replacements -->
+    <remove-project name="CyanogenMod/android_hardware_qcom_audio-caf" />
+    <remove-project name="CyanogenMod/android_packages_apps_Torch" />
+    <!-- Device Repos -->
+    <project path="device/htc/leo" name="szezso/android_device_htc_leo" remote="github" revision="cm-11.0-ION" />
+    <!-- Kernel Repos  -->
+    <project path="kernel/htc/leo" name="szezso/android_kernel_htc_leo_3.0" remote="github" revision="kitkat" /> 
+    <!-- Hardware Repos -->
+    <project path="hardware/qcom/display-legacy" name="szezso/android_hardware_qcom_display-legacy" remote="github" revision="kitkat" />
+    <project path="hardware/qcom/audio-caf" name="szezso/android_hardware_qcom_audio-caf" remote="github" revision="cm-11.0" />
+    <project path="hardware/qcom/media-legacy" name="szezso/android_hardware_qcom_media-legacy" remote="github" revision="cm-11.0" />
+    <project path="packages/apps/Torch" name="Mustaavalkosta/android_packages_apps_Torch" revision="cm-11.0" />
+</manifest>
