@@ -6,7 +6,7 @@
     <!-- Device Repos -->
     <project path="device/htc/leo" name="szezso/android_device_htc_leo" remote="github" revision="cm-11.0-ION" />
     <!-- Kernel Repos  -->
-    <project path="kernel/htc/leo" name="szezso/android_kernel_htc_leo_3.0" remote="github" revision="kitkat" /> 
+    <project path="kernel/htc/leo" name="szezso/android_kernel_htc_leo" remote="github" revision="3.0.x-ION" /> 
     <!-- Hardware Repos -->
     <project path="hardware/qcom/display-legacy" name="szezso/android_hardware_qcom_display-legacy" remote="github" revision="kitkat" />
     <project path="hardware/qcom/audio-caf" name="szezso/android_hardware_qcom_audio-caf" remote="github" revision="cm-11.0" />
